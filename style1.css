@@ -1,0 +1,85 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.para{
+    color: rgb(21, 21, 21);
+    text-align: center;
+}
+
+.container
+{
+    width: 100%;
+    height: 93vh;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 5px 10px rgb(135, 104, 215), -5px -5px 10px rgb(139, 107, 221);
+}
+
+.calculator
+{
+    background-color:rgb(229, 220, 252);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px rgb(135, 104, 215), 5px 5px 5px rgb(139, 107, 221);
+}
+
+form .display
+{    text-align: right;
+    height: 60px;
+    width: 270px;
+    border-radius: 20px;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+.text
+{
+    text-align: center;
+}
+form .display input{
+    text-align: right;
+    font-size: 50px;
+    box-shadow: none;
+}
+
+
+   .operator
+{
+   background-color: rgb(20, 19, 18); color: orange;
+}
+
+.op{
+    color:chartreuse;
+    background: #000;
+}
+.equal
+{
+    color: orange; background-color: black;
+}
+
+input{
+    border: 150px;
+    outline: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(20, 19, 18); 
+    color:chartreuse;
+    
+    font-size: 20px;
+    box-shadow: 6px 8px 15px rgb(20, 19, 18),5px 5px 15px rgb(20, 19, 18);
+    
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+
+ 
+ 
